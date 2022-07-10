@@ -56,6 +56,7 @@
     <Compile Include="EProvincias.cs" />
     <Compile Include="ERubros.cs" />
     <Compile Include="EUnidad_Medida.cs" />
+    <Compile Include="EUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

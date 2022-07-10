@@ -77,6 +77,7 @@ namespace CapaPresentacion
             childForm.Dock = DockStyle.Fill;
             pnl_cuerpo.Controls.Add(childForm);
             childForm.BringToFront();
+            childForm.StartPosition = FormStartPosition.CenterScreen;
             childForm.Show();
 
         }
@@ -105,6 +106,13 @@ namespace CapaPresentacion
         {
             OpenChildForm(new frmSalidaProductos());
             this.lbl_subtitulo.Text = "Salida de Productos";
+            this.lbl_subtitulo.Visible = true;
+        }
+
+        private void btn_usuarios_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmUsuarios());
+            this.lbl_subtitulo.Text = "Usuarios";
             this.lbl_subtitulo.Visible = true;
         }
     }

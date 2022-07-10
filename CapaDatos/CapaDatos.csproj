@@ -59,6 +59,7 @@
     <Compile Include="DTipos_Documentos_Emision.cs" />
     <Compile Include="DTipos_Documentos_Identidad.cs" />
     <Compile Include="DUnidad_Medida.cs" />
+    <Compile Include="DUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

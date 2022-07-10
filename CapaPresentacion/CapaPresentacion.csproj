@@ -90,6 +90,18 @@
     <Compile Include="frmDashBoard.Designer.cs">
       <DependentUpon>frmDashBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuarios.Designer.cs">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuarios_ed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuarios_ed.Designer.cs">
+      <DependentUpon>frmUsuarios_ed.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRepConSalidasAcuPorProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -376,6 +388,12 @@
     <Compile Include="Reportes\frmRepUnidadMedida.Designer.cs">
       <DependentUpon>frmRepUnidadMedida.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reportes\frmRepUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmRepUsuarios.Designer.cs">
+      <DependentUpon>frmRepUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reportes\frmRepVentaGenerada.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -402,6 +420,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDashBoard.resx">
       <DependentUpon>frmDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarios_ed.resx">
+      <DependentUpon>frmUsuarios_ed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRepConSalidasAcuPorProducto.resx">
       <DependentUpon>frmRepConSalidasAcuPorProducto.cs</DependentUpon>
@@ -542,6 +566,9 @@
     <EmbeddedResource Include="Reportes\frmRepUnidadMedida.resx">
       <DependentUpon>frmRepUnidadMedida.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmRepUsuarios.resx">
+      <DependentUpon>frmRepUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes\frmRepVentaGenerada.resx">
       <DependentUpon>frmRepVentaGenerada.cs</DependentUpon>
     </EmbeddedResource>
@@ -561,6 +588,7 @@
     <EmbeddedResource Include="Reportes\rptRepSalidaProductos.rdlc" />
     <EmbeddedResource Include="Reportes\rptRepStockProductosPorProducto.rdlc" />
     <EmbeddedResource Include="Reportes\rptRepUnidadMedida.rdlc" />
+    <EmbeddedResource Include="Reportes\rptRepUsuarios.rdlc" />
     <EmbeddedResource Include="Reportes\rptRepVentaGenerada.rdlc" />
   </ItemGroup>
   <ItemGroup>

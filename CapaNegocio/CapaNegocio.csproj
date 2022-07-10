@@ -58,6 +58,7 @@
     <Compile Include="NTipos_Documentos_Emision.cs" />
     <Compile Include="NTipos_Documentos_Identidad.cs" />
     <Compile Include="NUnidad_Medida.cs" />
+    <Compile Include="NUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
