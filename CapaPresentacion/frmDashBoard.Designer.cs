@@ -528,6 +528,7 @@
             this.pnl_cuerpo.Name = "pnl_cuerpo";
             this.pnl_cuerpo.Size = new System.Drawing.Size(1144, 644);
             this.pnl_cuerpo.TabIndex = 2;
+            this.pnl_cuerpo.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_cuerpo_Paint);
             // 
             // pnl_pie
             // 

@@ -25,6 +25,6 @@ namespace CapaNegocio
         {
             DUsuarios oDatos = new DUsuarios();
             return oDatos.Eliminar(codigo);
-        }
+        }       
     }
 }

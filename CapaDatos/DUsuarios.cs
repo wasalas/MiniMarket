@@ -89,6 +89,6 @@ namespace CapaDatos
                 if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
             }
             return Rpta;
-        }
+        }        
     }
 }

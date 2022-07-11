@@ -63,7 +63,7 @@ namespace CapaPresentacion
 
         private void btn_cerrar_sistema_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
         #endregion
 
@@ -114,6 +114,11 @@ namespace CapaPresentacion
             OpenChildForm(new frmUsuarios());
             this.lbl_subtitulo.Text = "Usuarios";
             this.lbl_subtitulo.Visible = true;
+        }
+
+        private void pnl_cuerpo_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
